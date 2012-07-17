@@ -1,5 +1,5 @@
 SecretRuby::Application.routes.draw do
-  get "users/new"
+  resources :users
 
   root :to => 'login#home'
   match '/about', :to => 'login#about'
