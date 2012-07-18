@@ -81,6 +81,24 @@ p {
   }
 }
 
+#header-login{
+  float:right;
+}
+#header-login input{
+  width: 130px;
+  padding: 3px;
+  margin-bottom: 0px;
+  vertical-align: middle;
+  }
+#header-login input[type="submit"]{
+  width: 40px
+}
+#header-login label{
+  display: inline;
+  color: white;
+  vertical-align: middle;
+}
+
 /* footer */
 
 footer {

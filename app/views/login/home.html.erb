@@ -1,18 +1,4 @@
 <% provide(:title, "Login") %>
-<div class="row">
-  <div class="span6 offset3">
-    <%= form_for(:session, url: sessions_path) do |f| %>
-    
-        <%= f.label :email %>
-        <%= f.text_field :email %>
-
-        <%= f.label :password %>
-        <%= f.password_field :password %>
-        
-        <%= f.submit "Sign in", :class => "btn btn-small btn-primary" %>
-    <% end %>
-  </div>
-</div>
 <div class="center hero-unit">
   <h1>Welcome to SeedSwap</h1>
   <h2>
