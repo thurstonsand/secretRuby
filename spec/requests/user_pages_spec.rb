@@ -25,8 +25,6 @@ describe "UserPages" do
     let(:page_title) { user.name }
 
     it_should_behave_like "all user pages"
-    it { should have_selector('h1', :text => user.name) }
-    it { should have_selector('title', :text => user.name) }
   end
 
   describe "signup" do
