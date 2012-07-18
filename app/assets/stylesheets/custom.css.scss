@@ -83,20 +83,23 @@ p {
 
 #header-login{
   float:right;
-}
-#header-login input{
-  width: 130px;
-  padding: 3px;
-  margin-bottom: 0px;
   vertical-align: middle;
+  form{
+    margin: 5px 15px;
   }
-#header-login input[type="submit"]{
-  width: 40px
-}
-#header-login label{
-  display: inline;
-  color: white;
-  vertical-align: middle;
+  input{
+    width: 130px;
+    padding: 3px;
+    margin-bottom: 0px;
+  }
+  input[type="submit"]{
+    width: 40px;
+    margin: 0;
+  }
+  label{
+    display: inline;
+    color: white;
+  }
 }
 
 /* footer */
